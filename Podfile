@@ -3,8 +3,8 @@ use_frameworks!
 
 def import_test_pods
 
-    pod 'Quick', :git => 'https://github.com/Quick/Quick', :branch => 'swift-2.0'
-    pod 'Nimble', :git => 'https://github.com/Quick/Nimble', :branch => 'swift-2.0'
+    pod 'Quick', '~> 0.6'
+    pod 'Nimble', '2.0.0-rc.3'
 
 end
 
